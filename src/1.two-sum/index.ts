@@ -21,7 +21,7 @@ function badSolution(nums: number[], target: number): number[] {
   return [];
 }
 
-// This alternative use O(n), because you can use a hashmap to keep the complementary result and iterate the array one single time search if the current element is a complementary of a know result.
+// This alternative use O(n), because you can use a hashmap to keep the complementary result and iterate the array one single time searching if the current element is a complementary of a know result.
 // @lc code=start
 export function twoSum(nums: number[], target: number): number[] {
   const possibleRests = new Map<number, number>();
