@@ -1,14 +1,10 @@
 {
   "name": "leetcode",
   "packageManager": "yarn@4.6.0",
-  "main": "index.ts",
   "scripts": {
-    "dev": "nodemon",
     "test": "vitest"
   },
   "devDependencies": {
-    "nodemon": "^3.1.10",
-    "ts-node": "^10.9.2",
     "typescript": "^5.8.3",
     "vitest": "^3.1.4"
   }
